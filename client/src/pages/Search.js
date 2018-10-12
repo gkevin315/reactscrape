@@ -41,7 +41,7 @@ class Search extends Component {
       <div>
         <Container>
           <Jumbotron>
-            <h1 className="text-center"><strong><i className="fa fa-newspaper-o"></i> New York Times Search</strong></h1>
+            <h1 className="text-center"><strong><i className="fa fa-newspaper-o"></i> NYT React Search</strong></h1>
           </Jumbotron>
           <Row>
             <Col size="md-12">
@@ -51,7 +51,7 @@ class Search extends Component {
           <Row>
             <Col size="md-12">
               <br />
-              <h3 className="panel-title"><strong><i className="fa fa-list-alt"></i>   Search Parameters</strong></h3>
+              <h3 className="panel-title"><strong><i className="fa fa-list-alt"></i>   Search </strong></h3>
               <form>
                 <Input
                   value={this.state.searchTerm}
